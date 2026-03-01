@@ -1,0 +1,29 @@
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.price {
+  color: #00ffd5;
+  font-weight: bold;
+}
+
+button {
+  background: #00ffd5;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
