@@ -10,6 +10,10 @@ function Header() {
         <Link to="/tienda">Tienda</Link>
         <Link to="/lanzamientos">Lanzamientos</Link>
         <Link to="/sucursales">Sucursales</Link>
+        <Link to="/categorias">Categorías</Link>
+        <Link to="/ofertas">Ofertas</Link>
+        <Link to="/carrito" className="cart-link">Carrito</Link>
+        <Link to="/contacto" className="contact-link">Contacto</Link>
       </nav>
     </header>
   );
