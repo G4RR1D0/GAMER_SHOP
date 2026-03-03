@@ -1,0 +1,66 @@
+.carrito-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #111;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(139, 0, 0, 0.6);
+  text-align: center;
+}
+
+.btn-agregar {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background: #ff4655;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+li button {
+  background: #b30000;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.form-carrito {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-carrito input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: #1e1e1e;
+  color: white;
+}
+
+.form-carrito button {
+  background: #ff4655;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

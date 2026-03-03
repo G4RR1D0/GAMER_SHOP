@@ -6,6 +6,8 @@ import Launches from "./pages/Launches";
 import Branches from "./pages/Branches";
 import Categorias from "./pages/Categorias";
 import Ofertas from "./pages/Ofertas";
+import Carrito from "./pages/Carrito";
+import Contactos from "./pages/Contactos";
 import "./App.css";
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
         <Route path="/sucursales" element={<Branches />} />
         <Route path="/categorias" element={<Categorias />} />
         <Route path="/ofertas" element={<Ofertas />} />
+        <Route path="/carrito" element={<Carrito />} />
+        <Route path="/contacto" element={<Contactos />} />
+        
       </Routes>
     </>
   );
