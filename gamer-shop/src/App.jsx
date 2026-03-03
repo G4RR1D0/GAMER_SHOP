@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./pages/Home";
+import Inicio from "./Inicio";
 import Store from "./pages/Store";
 import Launches from "./pages/Launches";
 import Branches from "./pages/Branches";
@@ -15,7 +15,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Inicio />} />
         <Route path="/tienda" element={<Store />} />
         <Route path="/lanzamientos" element={<Launches />} />
         <Route path="/sucursales" element={<Branches />} />
@@ -23,7 +23,6 @@ function App() {
         <Route path="/ofertas" element={<Ofertas />} />
         <Route path="/carrito" element={<Carrito />} />
         <Route path="/contacto" element={<Contactos />} />
-        
       </Routes>
     </>
   );

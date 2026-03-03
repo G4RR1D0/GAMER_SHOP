@@ -1,11 +1,11 @@
 .categorias-container {
-  padding: 60px 40px; /* más espacio arriba */
+  padding: 60px 40px;
   text-align: center;
 }
 
-/* 🔥 TÍTULO */
+
 .categorias-container h2 {
-  margin-bottom: 50px; /* separación de las cards */
+  margin-bottom: 50px; 
   font-size: 30px;
   color: #ff4655;
   text-transform: uppercase;
@@ -13,7 +13,7 @@
   position: relative;
 }
 
-/* línea roja gamer debajo del título */
+
 .categorias-container h2::after {
   content: "";
   width: 120px;
@@ -24,7 +24,7 @@
   border-radius: 2px;
 }
 
-/* 🔥 GRID RESPONSIVE */
+
 .categorias-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -33,7 +33,7 @@
   margin: auto;
 }
 
-/* 🔥 CARD */
+
 .categoria-card {
   background: #1e1e1e;
   color: white;
@@ -53,7 +53,6 @@
   object-fit: cover;
 }
 
-/* contenido */
 .contenido {
   padding: 12px;
   flex: 1;
